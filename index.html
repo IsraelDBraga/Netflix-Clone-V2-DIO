@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shorthandcss@1.1.1/dist/shorthand.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap" />
+     <!--owl css-->
+     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+     <link rel="stylesheet" href="style/main.css">
+     <!--responsividade-->
+     <link rel="stylesheet" href="style/responsive.css">
+
+<body class="bg-black muli">
+    <nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black">
+        <div class="flex justify-between">
+            <a href="#" class="flex items-center p-2 mr-4 no-underline">
+                <img class="max-h-l2 w-auto" src="assets/images/logo.png" />
+            </a>
+            <a data-toggle="toggle-nav" data-target="#nav-items" href="#"
+                class="flex items-center ml-auto md-hidden red-lighter opacity-50 hover-opacity-100 ease-300 p-1 m-3">
+                <i data-feather="menu"></i>
+            </a>
+        </div>
+        <div id="nav-items" class="hidden flex sm-w-100pc flex-column md-flex md-flex-row md-justify-end items-center">
+            <a href="#inicio" class="fs-s1 mx-3 py-3 white no-underline hover-underline">Inicio</a>
+            <a href="#filmes" class="fs-s1 mx-3 py-3 white no-underline hover-underline">Filmes</a>
+            <a href="#series" class="fs-s1 mx-3 py-3 white no-underline hover-underline">Séries</a>
+            <a href="#documentarios" class="fs-s1 mx-3 py-3 white no-underline hover-underline">Documentários</a>
+            <a href="#" class="button bg-white black fw-600 no-underline mx-5">Entrar</a>
+        </div>
+    </nav>
+
+    <!-- Seção de procura -->
+    <section id="home" class="procura">
+        <div class="mx-5 md-mx-l5">
+            <div>
+                <h1 class="white fs-l3 lh-2 md-fs-xl1 md-lh-1 fw-900 ">Bem vindo! <br />Assista agora.</h1>
+
+                <div class="br-8 mt-10 inline-flex">
+                    <input type="text"
+                        class="input-lg half bw-0 fw-200 bg-red-lightest-10 white ph-red-lightest focus-white opacity-80 fs-s3 py-5 min-w-25vw br-r-0"
+                        placeholder="Digite sua busca">
+                    <button
+                        class="button-lg bg-red-lightest-20 red-lightest focus-white fw-300 fs-s3 mr-0 br-l-0">Procurar</button>
+                </div>
+        </div>
+    </section>
+
+    <!-- filmes, series e documentarios -->
+    <section id="features" class="p-10 md-p-l5">
+        <div class="flex flex-column md-flex-row mx-auto">
+            <div class="w-100pc md-w-40pc">
+                <div class="br-8 p-5 m-5">
+                    <div class="flex justify-center items-center bg-red-lightest-10 white w-l5 h-l5 br-round mb-5"><i
+                            data-feather="video" class="w-l5"></i></div>
+                    <h4 class="white fw-600 fs-m3 mb-5">Filmes</h4>
+                    <div class="red-lightest fw-600 fs-m1 lh-3 opacity-50">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    <a href="#"
+                        class="mt-5 button bg-red-lightest-10 fs-s3 white no-underline hover-opacity-100 hover-scale-up-1 ease-300">Assistir</a>
+                </div>
+            </div>
+            <div class="w-100pc md-w-40pc">
+                <div class="br-8 p-5 m-5">
+                    <div class="flex justify-center items-center bg-red-lightest-10 white w-l5 h-l5 br-round mb-5"><i
+                            data-feather="film" class="w-l5"></i></div>
+                    <h4 class="white fw-600 fs-m3 mb-5">Séries</h4>
+                    <div class="red-lightest fw-600 fs-m1 opacity-50">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    <a href="#"
+                        class="mt-5 button bg-red-lightest-10 fs-s3 white no-underline hover-opacity-100 hover-scale-up-1 ease-300">Assistir</a>
+                </div>
+            </div>
+            <div class="w-100pc md-w-40pc">
+                <div class="br-8 p-5 m-5">
+                    <div class="flex justify-center items-center bg-red-lightest-10 white w-l5 h-l5 br-round mb-5"><i
+                            data-feather="file-text" class="w-l5"></i></div>
+                    <h4 class="white fw-600 fs-m3 mb-5">Documentários</h4>
+                    <div class="red-lightest fw-600 fs-m1 opacity-50">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    <a href="#"
+                        class="mt-5 button bg-red-lightest-10 fs-s3 white no-underline hover-opacity-100 hover-scale-up-1 ease-300">Assistir</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERIE MAIN -->
+    <section class="p-10 md-mx-15">
+        <div class="md-w-75pc">
+            <h2 class="white fs-l3 fw-900 lh-1">GREY'S ANATOMY</h2>
+            <p class="red-lightest fw-600 fs-m1 opacity-50 my-5">Os médicos do Grey Sloan Memorial Hospital lidam diariamente com casos e consequências de vida
+                 ou morte. É um no outro que eles encontram apoio, conforto, amizade e, às vezes, até mais que amizade... Juntos, 
+                eles descobrem o quanto a vida profissional e a pessoal podem ser complicadas e se misturarem no meio do caminho.</p>
+        </div>
+        <div class="filme-principal">
+            <div class="botoes">
+
+                <button role="button" class="botao"><i class="fa-solid fa-play"></i> ASSISTIR AGORA
+                </button>
+                <button role="button" class="botao"><i class="fa-solid fa-circle-info"></i> MAIS INFORMAÇÕES
+               </button>
+             </div>
+        </div>
+
+    </section>
+    <section class="p-10 md-mx-15">
+        <div class="md-w-75pc">
+            <h2 class="white fs-l1 fw-900 lh-1">RECOMENDADO</h2>
+        </section>     
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+             <div class="item">
+                  <img class="box-filme" src="assets/images/mini1.jpg" alt="" srcset="">
+             </div>
+             <div class="item">
+                  <img class="box-filme" src="assets/images/mini2.jpg" alt="" srcset="">
+             </div>
+             <div class="item">
+                  <img class="box-filme" src="assets/images/mini3.jpg" alt="" srcset="">
+             </div>
+             <div class="item">
+                  <img class="box-filme" src="assets/images/mini4.jpg" alt="" srcset="">
+             </div>
+             <div class="item">
+                  <img class="box-filme" src="assets/images/mini5.jpg" alt="" srcset="">
+             </div>
+             <div class="item">
+                  <img class="box-filme" src="assets/images/mini6.jpg" alt="" srcset="">
+             </div>
+             <div class="item">
+                  <img class="box-filme" src="assets/images/mini7.jpg" alt="" srcset="">
+             </div>
+             <div class="item">
+                  <img class="box-filme" src="assets/images/mini8.jpg" alt="" srcset="">
+             </div>
+             <div class="item">
+                  <img class="box-filme" src="assets/images/mini9.jpg" alt="" srcset="">
+             </div>
+             <div class="item">
+                  <img class="box-filme" src="assets/images/mini10.jpg" alt="" srcset="">
+             </div>
+        </div>
+   </div>
+
+
+    <!-- footer -->
+    <footer class="p-5 md-p-l5 bg-red-lightest-10">
+        <div class="flex flex-wrap">
+            <div class="md-w-25pc mb-10">
+                <img src="assets/images/logo.png" class="w-l5" alt="">
+                <div class="white opacity-70 fs-s2 mt-4 md-pr-10">
+                    <p>Soluta voluptate et optio. Eos quasi impedit sapiente aliquid eius eligendi at. Necessitatibus
+                        magni et sed quod quas minima.</p>
+                    <br>
+                    <p>Soluta voluptate et optio. Eos quasi impedit sapiente aliquid eius eligendi at. Necessitatibus
+                        magni et sed quod quas minima.</p>
+                </div>
+            </div>
+            <div class="w-100pc md-w-50pc">
+                <div class="flex justify-around">
+                    <div class="w-33pc md-px-10 mb-10">
+                        <h5 class="white">Empresa</h5>
+                        <ul class="list-none mt-5 fs-s2">
+                            <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">Sobre
+                                    </a></li>
+                            <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">Trabalhe Conosco</a>
+                            </li>
+                            <li class="my-3"><a href="#"
+                                    class="white opacity-70 no-underline hover-underline">Contato</a></li>
+                            <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">Mídia</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="w-33pc md-px-10 mb-10">
+                        <h5 class="white">Suporte</h5>
+                        <ul class="list-none mt-5 fs-s2">
+                            <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">About
+                                    Us</a></li>
+                            <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">Jobs</a>
+                            </li>
+                            <li class="my-3"><a href="#"
+                                    class="white opacity-70 no-underline hover-underline">Contact</a></li>
+                            <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">Media</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100pc md-w-25pc">
+                <div class="flex w-75pc md-w-100pc mx-auto">
+                    <input type="text"
+                        class="input flex-grow-1 bw-0 fw-200 bg-red-lightest-10 white ph-red-lightest focus-white opacity-80 fs-s3 py-5 br-r-0"
+                        placeholder="Email Address">
+                    <button class="button bg-red red-lightest fw-300 fs-s3 br-l-0">Começar</button>
+                </div>
+                <div class="flex justify-around my-8">
+                    <a href="#" class="relative p-5 bg-red br-round white hover-scale-up-1 ease-400"><i
+                            data-feather="twitter" class="absolute-center h-4"></i></a>
+                    <a href="#" class="relative p-5 bg-red br-round white hover-scale-up-1 ease-400"><i
+                            data-feather="facebook" class="absolute-center h-4"></i></a>
+                    <a href="#" class="relative p-5 bg-red br-round white hover-scale-up-1 ease-400"><i
+                            data-feather="instagram" class="absolute-center h-4"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/21e363dc49.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/setup.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
